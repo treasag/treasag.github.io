@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+
+h1 {
+
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 3em;
+  color: #567561; 
+}
+
+.row > div {
+  border: 1px solid black;
+  background-color: #b7c484;
+  margin-top: 1%;
+  margin-right: 55px;
+  margin-left: 65px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+p {
+  margin-right: 9%;
+  margin-left: 9%;
+  text-align: left;
+  font-family: cursive;
+  font-size: 90%;
+}
+
+.first {
+  position: relative;
+}
+
+#chicken {
+  border: 1px solid black;
+  background-color: #b5958b;
+  width: 100px;
+  margin-top: 1px;
+  margin-right: 1px;
+  text-align: center;
+  float: right;
+
+}
+.second {
+  position: relative;
+
+}
+#beef {
+  border: 1px solid black;
+  background-color: #9190a6 ;
+  width: 100px;
+  margin-top: 1px;
+  margin-right: 1px;
+  text-align: center;
+  float: right;
+}
+
+.third {
+  position: relative;
+}
+
+#sushi {
+  border: 1px solid black;
+  background-color: #9fb5a4;
+  width: 100px;
+  margin-top: 1px;
+  margin-right: 1px;
+  text-align: center;
+  float: right;
+
+}
+@media screen and (min-width: 992px) {
+.first {
+  width: 25%;
+ display: inline-block;
+}
+.second {
+  width: 25%;
+ display: inline-block;
+}
+.third {
+ width: 25%;
+ display: inline-block
+}
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.first {
+  width: 33.3%;
+ display: inline-block;
+}
+.second {
+  width: 33.3%;
+ display: inline-block;
+}
+
+
+
+
+
+
+
